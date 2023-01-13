@@ -1,0 +1,35 @@
+iniciando o git no projeto -> "git init";
+adicionando arquivos não monitorados para o staged -> "git add ." (para adicionar todos/ou no lugar do ponto adicionar o nome do arquivo)
+commitar -> "git commit -m "descrição do que fez" "
+
+ver os log -> {
+    "git log"
+    "git log --pretty=oneline"
+    "git log --pretty=oneline -1"
+}
+
+ver diferenças -> {
+    "git diff"
+    "git diff --name-only"
+}
+
+desfazer alterações -> {
+    "git checkout -- file_name" -> (voltar para última versã que está comitada);
+    "git commit --amend" -> (caso não tenha nada no staged, vai só mudar a descrição do último commit
+     caso tenha algo, ele vai adionar o que tem e pode também trocar a descrição)
+     "git reset HEAD file_name" -> Tirar o arquivo do staged
+}
+
+branchs -> {
+    criar uma nova branch -> "git branch (nome)";
+    alterar a branch -> "git checkout nome_da_branch";
+    deletar branch -> "git branch -D nome_da_branch";
+    criar e já mudar para branch -> "git checkout -b nome_da_branch";
+}
+
+Unir o que está na outra branch -> "git merge nome_da_branch";
+
+clonar repositório -> "git clone (endereço)";
+
+enviar alterações para github -> "git push origin main";
+baixar alterações -> "git pull origin master";
