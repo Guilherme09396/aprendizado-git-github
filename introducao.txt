@@ -1,0 +1,3 @@
+Git e github vai servir como versionamento de códigos, ou seja, você vai ter todo
+o controle sobre versões. Podendo assim ter em mãos versões anteriores caso aconteça
+algum problema.
