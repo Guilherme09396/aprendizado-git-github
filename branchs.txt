@@ -1,0 +1,3 @@
+Branchs basicamente vai ser um "outro caminho" onde tudo que você colocar nessa branch atual
+vai pertencer somente a ela, só depois de utilizar o comando de unir é que vai estar disponível 
+na branch principar(master/main)
